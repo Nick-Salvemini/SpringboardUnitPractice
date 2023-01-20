@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}Spell Word{% endblock %}
+
+{% block content %}
+{% for letter in word %}
+<h1>{{letter}}.</h1>
+{% endfor %}
+{% endblock %}
